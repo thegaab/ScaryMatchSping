@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.0</version>
+		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.alura</groupId>
 	<artifactId>scarymatch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>scarymatch</name>
-	<description>First project spring without web</description>
+	<description>Sprin sem web</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -41,6 +41,7 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>

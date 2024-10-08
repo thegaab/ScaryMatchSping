@@ -1,5 +1,5 @@
 package br.com.alura.scarymatch.service;
 
-public interface IconverteDados {
+public interface IConverteDados {
     <T> T obterDados(String json, Class<T> classe);
 }
