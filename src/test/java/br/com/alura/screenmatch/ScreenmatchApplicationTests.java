@@ -1,10 +1,10 @@
-package br.com.alura.scarymatch;
+package br.com.alura.screenmatch;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ScarymatchApplicationTests {
+class ScreenmatchApplicationTests {
 
 	@Test
 	void contextLoads() {
